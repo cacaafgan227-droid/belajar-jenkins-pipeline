@@ -16,7 +16,8 @@ pipeline {
         stage ("Test") {
             steps {
                 echo "Hello Test"
-                sh "error"
+                echo "Hello Test-2"
+                sh "echo 'Running test script...'"
             }
         }
 
