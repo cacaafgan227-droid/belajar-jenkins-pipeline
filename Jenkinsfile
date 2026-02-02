@@ -1,7 +1,5 @@
 pipeline {
     agent any
-      node {
-        label "jenkins agent1"
 
     stages {
 
@@ -42,4 +40,5 @@ pipeline {
         }
     }
 }
+
 
