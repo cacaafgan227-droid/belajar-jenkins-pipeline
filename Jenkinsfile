@@ -1,9 +1,7 @@
 pipeline {
-    agent {
-        node {
-            label "linux"
-        }
-    }
+    agent any
+      node {
+        label "jenkins agent1"
 
     stages {
 
